@@ -1,0 +1,15 @@
+.content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 40px 10px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.content img {
+  padding-top: 40px;
+  width: 80%;
+  height: 80%;
+}
+
+/*# sourceMappingURL=contacts.css.map */

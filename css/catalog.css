@@ -1,0 +1,86 @@
+.content .search {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+}
+.content .search input {
+  height: 40px;
+  line-height: 40px;
+  font-size: 24px;
+  padding-left: 15px;
+}
+.content .search a img {
+  height: 42px;
+  width: 42px;
+  background: #8A007F;
+}
+.content .cats {
+  padding: 20px 0px;
+}
+.content .cats .cat {
+  padding-left: 35px;
+}
+.content .cats .cat span {
+  font-size: 26px;
+  font-weight: 500;
+  color: #570056;
+  margin: 20px 0px;
+}
+.content .cats .cat p {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.content .cats .cat a {
+  text-decoration: none;
+  padding-left: 20px;
+  padding-top: 10px;
+  color: #7A005E;
+}
+.content .cats .cat a:hover {
+  color: #570056;
+}
+
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.tg td {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tg th {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+
+.tg .tg-baqh {
+  text-align: center;
+  vertical-align: top;
+}
+
+.tg .tg-lqy6 {
+  text-align: right;
+  vertical-align: top;
+}
+
+.tg .tg-0lax {
+  text-align: left;
+  vertical-align: top;
+}
+
+/*# sourceMappingURL=catalog.css.map */

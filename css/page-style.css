@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  font-family: "Rubik", sans-serif;
+  background: #E8C6D9;
+}
+.wrapper .header {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  height: 400px;
+}
+.wrapper .header .head {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+}
+.wrapper .header .head .city {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  padding: 15px 0px 0px 15px;
+}
+.wrapper .header .head .city p {
+  color: #FFFFFF;
+  padding-bottom: 10px;
+}
+.wrapper .header .head .city select {
+  height: 24px;
+  width: 150px;
+  border-radius: 12px;
+}
+.wrapper .header .head .menu {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 15px 15px 0px 0px;
+}
+.wrapper .header .head .menu a {
+  color: #FFFFFF;
+}
+.wrapper .header > img {
+  overflow: hidden;
+  object-fit: cover;
+}
+.wrapper .header .navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  background: #7A005E;
+}
+.wrapper .header .navbar a {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  margin: 7px 0px;
+  padding: 10px 0px;
+  width: 20%;
+  z-index: 9999;
+}
+.wrapper .header .navbar a:hover {
+  box-shadow: 0px 0px 30px #FFFFFF;
+  transition: all 0.2s ease-in;
+}
+.wrapper .header .navbar a span {
+  color: #FFFFFF;
+  font-size: 20px;
+}
+.wrapper .header .navbar a img {
+  height: 40px;
+  width: 40px;
+  padding-left: 15px;
+}
+.wrapper .footer {
+  background: #570056;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  color: #FFFFFF;
+  padding: 15px 10px 10px 10px;
+}
+.wrapper .footer p {
+  font-size: 20px;
+}
+
+@media (max-width: 800px) {
+  .wrapper .header {
+    overflow: hidden;
+    height: max-content;
+  }
+  .wrapper .header > img {
+    transform: scale(1.5);
+  }
+  .wrapper .header .navbar {
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: 40px;
+    padding-top: 60px;
+  }
+  .wrapper .header .navbar a {
+    width: 80%;
+    padding: 20px 0px;
+  }
+  .wrapper .footer {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  .wrapper .footer p {
+    padding: 10px 0px;
+  }
+}
+
+/*# sourceMappingURL=page-style.css.map */

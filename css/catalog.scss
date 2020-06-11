@@ -1,0 +1,62 @@
+.content
+{
+	.search
+	{
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: flex-start;
+
+		input
+		{
+			height: 40px;
+			line-height: 40px;
+			font-size: 24px;
+			padding-left: 15px;
+
+		}
+
+		a
+		{	
+			img
+			{
+				height: 42px;
+				width: 42px;
+				background: #8A007F;
+			}
+		}
+	}
+
+	.cats
+	{
+		padding: 20px 0px;
+		.cat
+		{
+			padding-left: 35px;
+
+			span
+			{
+				font-size: 26px;
+				font-weight: 500;
+				color: #570056;
+				margin: 20px 0px;
+			}
+
+			a
+			{
+				text-decoration: none;
+
+				li
+				{
+					padding-left: 20px;
+					padding-top: 5px;
+					color: #7A005E;
+
+					&:hover
+					{
+						color: #570056;
+					}
+				}
+			}
+		}
+	}
+}

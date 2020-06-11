@@ -1,0 +1,14 @@
+.content {
+  padding: 15px 0px 15px 15px;
+}
+.content p:nth-child(1) {
+  font-size: 28px;
+  font-weight: 400;
+}
+.content span {
+  display: block;
+  content: "";
+  padding: 20px 0px;
+}
+
+/*# sourceMappingURL=about-us.css.map */
